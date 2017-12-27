@@ -27,6 +27,14 @@
       <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
       <el-col :span="4"><div class="grid-content bg-purple-light"></div></el-col>
     </el-row>
+    <div>
+      <router-link to="/HelloWorld"><el-button round >圆形按钮</el-button></router-link>
+      <el-button type="primary" round @click="goPath">主要按钮</el-button>
+      <el-button type="success" round>成功按钮</el-button>
+      <el-button type="info" round>信息按钮</el-button>
+      <el-button type="warning" round>警告按钮</el-button>
+      <el-button type="danger" round>危险按钮</el-button>
+    </div>
   </div>
 </template>
 
