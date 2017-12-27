@@ -1,7 +1,7 @@
 export default{
   data () {
     return {
-      msg: 'Welcome to Your Vue.js index',
+      msg: 'Element-ui',
       swiperList:[]
     }
   },
